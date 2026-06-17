@@ -1,0 +1,194 @@
+/* ==========================
+   INTEGRATIONS SECTION
+========================== */
+
+#cw-integrations{
+    width:1400px;
+    margin:50px auto;
+    padding:80px 50px;
+    background:#eff5f3;
+    /* border-radius:30px; */
+    text-align:center;
+}
+
+.cw-int-tag{
+    width:180px;
+    margin:auto;
+    padding:10px 20px;
+    border-radius:30px;
+    background:#edf8f5;
+    color:#2b8a78;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+.cw-int-title{
+    margin-top:30px;
+    font-size:50px;
+    font-weight:700;
+    color:#111;
+}
+
+.cw-int-title span{
+    font-family:"Playfair Display", serif;
+    font-style:italic;
+    color:#2b8a78;
+}
+
+.cw-logo-grid{
+    margin-top:60px;
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    gap:20px;
+    justify-items:center;
+    width: 1200px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.cw-logo-grid span{
+    padding:10px 18px;
+    background:#e7e7e7;
+    border-radius:30px;
+    color:#135348;
+    font-weight:600;
+    min-width:130px;
+}
+
+.cw-extra-apps{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    
+    
+  
+}
+
+.cw-extra-apps button{
+    padding:10px 25px;
+    border:none;
+    border-radius:30px;
+    background:#e7e7e7;
+    color:#135348;
+    font-weight:600;
+    min-width: 130px;
+    cursor:pointer;
+    padding:10px 18px;
+    font-size: 15px;
+}
+
+/* ==========================
+   FAQ SECTION
+========================== */
+
+#cw-faq{
+    width:1400px;
+    margin:50px auto;
+    padding:80px;
+    background:#e7efec;
+    /* border-radius:30px; */
+    display:flex;
+    justify-content:space-between;
+    gap:80px;
+}
+
+.cw-faq-left{
+    width:35%;
+}
+
+.cw-faq-tag{
+    display:inline-block;
+    padding:10px 18px;
+    background:#f3f5f4;
+    border-radius:30px;
+    color:#2b8a78;
+    font-size:12px;
+    font-weight:700;
+}
+
+.cw-faq-title{
+    margin-top:25px;
+    font-size:40px;
+    color:#111;
+}
+
+.cw-faq-title span{
+    font-family:"Playfair Display", serif;
+    font-style:italic;
+    color:#2b8a78;
+}
+
+.cw-faq-text{
+    margin-top:25px;
+    line-height:1.8;
+    color:#135348;
+}
+
+.cw-faq-left a{
+    display:inline-block;
+    margin-top:20px;
+    text-decoration:none;
+    color:#2b8a78;
+    font-weight:700;
+}
+
+.cw-faq-right{
+    width:60%;
+}
+
+.cw-faq-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 0;
+    border-bottom:1px solid #d5d5d5;
+}
+
+.cw-faq-item span{
+    font-size:18px;
+    color:#0b3730;
+    font-weight:600;
+}
+
+.cw-faq-item button{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+    border:1px solid #135348;
+    background:transparent;
+    color:#135348;
+    font-size:20px;
+    cursor:pointer;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+    #cw-integrations,
+    #cw-faq{
+        width:95%;
+    }
+
+    .cw-logo-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    #cw-faq{
+        flex-direction:column;
+    }
+
+    .cw-faq-left,
+    .cw-faq-right{
+        width:100%;
+    }
+
+    .cw-int-title,
+    .cw-faq-title{
+        font-size:38px;
+    }
+}
